@@ -60,18 +60,26 @@
 
 | 项目名称 | 说明 | 技术栈 | 仓库链接 |
 | :--- | :--- | :--- | :---: |
-| **🚀 高并发微服务脚手架 / Core Architecture** | 企业级开箱即用架构，集成配置中心、链路追踪与限流 | `Go` `Docker` `Redis` | [查看项目](https://github.com/Frank-zhu2000) |
-| **⚡ 现代全栈开发者工具箱 / Dev-Toolkit** | 解决高频开发痛点，提供自动化脚本、调试工具与优雅 CLI | `TypeScript` `Node.js` | [查看项目](https://github.com/Frank-zhu2000) |
+| **⚡ RAGForge / ragforge** | 轻量、模块化的 RAG 数据管线工具包：核心零外部依赖，支持 Markdown/代码语义分块、BM25 + 向量 RRF 混合检索与 RAG 评测（Hit Rate、MRR、NDCG、Faithfulness 等），附带 CLI | <code>Python</code> <code>BM25</code> <code>RRF</code> <code>CLI</code> | [查看项目](https://github.com/Frank-zhu2000/ragforge) |
 
----
+### 🤝 开源贡献 / Open Source Contributions
 
-### 🟩 绿墙贡献动态图 / Contribution Activity
+| 仓库 | ⭐ Stars | 已合并 PR | 代表 PR |
+| :--- | :---: | :---: | :--- |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 27.6万 | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 4.9万 | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 4.7万 | 2 | [#3199 fix: check token budget before turn-count trim](https://github.com/zhayujie/CowAgent/pull/3199) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 4.6万 | 1 | [#1449 docs(assurance): correct API key storage claims](https://github.com/alibaba/open-code-review/pull/1449) |
+| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 4.1万 | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
+| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 4.0万 | 7 | [#1651 fix(generation): reject invalid quiz option shapes and constrain values at the source](https://github.com/THU-MAIC/OpenMAIC/pull/1651) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 3.3万 | 2 | [#3531 docs(ollama): document embedding model config and RAM guidance](https://github.com/Tencent/WeKnora/pull/3531) |
+| [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 2.3万 | 1 | [#7086 fix: MCP node should not mark all params required when schema has no required](https://github.com/1Panel-dev/MaxKB/pull/7086) |
+| [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 0.7万 | 2 | [#632 fix(host-core): detect MSIX Store pwsh app-execution aliases](https://github.com/vastsa/PI-Desktop/pull/632) |
+| [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | 0.5万 | 1 | [#626 docs: fix CONTRIBUTING branch baseline and dogfood setup](https://github.com/Tencent/teamai-cli/pull/626) |
+| [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | 0.5万 | 1 | [#1288 fix(migrations): align MANIFEST timestamp for 0238 with filename](https://github.com/melgarafael/DeskcommCRM/pull/1288) |
+| [spacering-net/codeg](https://github.com/spacering-net/codeg) | 0.4万 | 2 | [#778 fix(acp): update session transcript pointer after /clear](https://github.com/spacering-net/codeg/pull/778) |
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frank-zhu2000/Frank-zhu2000/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frank-zhu2000/Frank-zhu2000/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/Frank-zhu2000/Frank-zhu2000/output/github-contribution-grid-snake.svg">
-</picture>
+> 共 25 个已合并 PR，覆盖 12 个仓库。
 
 ---
 
