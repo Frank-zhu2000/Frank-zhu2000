@@ -1,0 +1,122 @@
+[
+  {
+    "repo": "affaan-m/ECC",
+    "count": 2,
+    "fallbackStars": 308170,
+    "representative": {
+      "number": 3157,
+      "title": "fix(gateguard): ignore heredoc prose for tee and path-qualified sinks",
+      "url": "https://github.com/affaan-m/ECC/pull/3157"
+    }
+  },
+  {
+    "repo": "HKUDS/nanobot",
+    "count": 1,
+    "fallbackStars": 50248,
+    "representative": {
+      "number": 5873,
+      "title": "refactor(utils): dedupe atomic JSONL write helper",
+      "url": "https://github.com/HKUDS/nanobot/pull/5873"
+    }
+  },
+  {
+    "repo": "zhayujie/CowAgent",
+    "count": 2,
+    "fallbackStars": 48027,
+    "representative": {
+      "number": 3199,
+      "title": "fix: check token budget before turn-count trim",
+      "url": "https://github.com/zhayujie/CowAgent/pull/3199"
+    }
+  },
+  {
+    "repo": "alibaba/open-code-review",
+    "count": 1,
+    "fallbackStars": 54988,
+    "representative": {
+      "number": 1449,
+      "title": "docs(assurance): correct API key storage claims",
+      "url": "https://github.com/alibaba/open-code-review/pull/1449"
+    }
+  },
+  {
+    "repo": "JustVugg/colibri",
+    "count": 3,
+    "fallbackStars": 52611,
+    "representative": {
+      "number": 1622,
+      "title": "fix(v4): use direct reads for per_matrix REAP expert records",
+      "url": "https://github.com/JustVugg/colibri/pull/1622"
+    }
+  },
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "count": 7,
+    "fallbackStars": 44065,
+    "representative": {
+      "number": 1651,
+      "title": "fix(generation): reject invalid quiz option shapes and constrain values at the source",
+      "url": "https://github.com/THU-MAIC/OpenMAIC/pull/1651"
+    }
+  },
+  {
+    "repo": "Tencent/WeKnora",
+    "count": 2,
+    "fallbackStars": 37946,
+    "representative": {
+      "number": 3531,
+      "title": "docs(ollama): document embedding model config and RAM guidance",
+      "url": "https://github.com/Tencent/WeKnora/pull/3531"
+    }
+  },
+  {
+    "repo": "1Panel-dev/MaxKB",
+    "count": 1,
+    "fallbackStars": 23182,
+    "representative": {
+      "number": 7086,
+      "title": "fix: MCP node should not mark all params required when schema has no required",
+      "url": "https://github.com/1Panel-dev/MaxKB/pull/7086"
+    }
+  },
+  {
+    "repo": "vastsa/PI-Desktop",
+    "count": 2,
+    "fallbackStars": 8118,
+    "representative": {
+      "number": 632,
+      "title": "fix(host-core): detect MSIX Store pwsh app-execution aliases",
+      "url": "https://github.com/vastsa/PI-Desktop/pull/632"
+    }
+  },
+  {
+    "repo": "Tencent/teamai-cli",
+    "count": 1,
+    "fallbackStars": 5902,
+    "representative": {
+      "number": 626,
+      "title": "docs: fix CONTRIBUTING branch baseline and dogfood setup",
+      "url": "https://github.com/Tencent/teamai-cli/pull/626"
+    }
+  },
+  {
+    "repo": "melgarafael/DeskcommCRM",
+    "count": 1,
+    "fallbackStars": 5507,
+    "representative": {
+      "number": 1288,
+      "title": "fix(migrations): align MANIFEST timestamp for 0238 with filename",
+      "url": "https://github.com/melgarafael/DeskcommCRM/pull/1288"
+    }
+  },
+  {
+    "repo": "spacering-net/codeg",
+    "count": 2,
+    "fallbackStars": 4555,
+    "representative": {
+      "number": 778,
+      "title": "fix(acp): update session transcript pointer after /clear",
+      "url": "https://github.com/spacering-net/codeg/pull/778"
+    }
+  }
+]

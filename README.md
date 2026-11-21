@@ -1,88 +1,219 @@
-<!-- profile-readme-refresh: 2026-09-24 -->
 <div align="center">
-  <!-- 动态打字效果介绍 -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Frank+Zhu+%F0%9F%91%8B;AI+%2F+LLM+Algorithm+Engineer;Building+AI+Agents+%26+Agent+Harness" alt="Typing SVG" />
+  <a href="https://github.com/Frank-zhu2000">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
+      <img src="./assets/banner-light.svg" alt="Frank Zhu — AI / LLM & Agent Harness Engineer" width="100%" />
+    </picture>
+  </a>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/GitHub-Frank--zhu2000-181717?style=flat-square&logo=github" alt="GitHub">
-    <img src="https://img.shields.io/badge/Focus-AI%20Agent%20%7C%20LLM%20%7C%20FullStack-blue?style=flat-square" alt="Focus">
-    <img src="https://img.shields.io/badge/Status-Actively%20Building-success?style=flat-square" alt="Status">
-    <img src="https://komarev.com/ghpvc/?username=Frank-zhu2000&label=Profile%20Views&color=blue&style=flat-square" alt="Profile Views" />
+    <a href="https://github.com/Frank-zhu2000">
+      <img src="https://img.shields.io/badge/GitHub-Frank--zhu2000-0f172a?style=flat-square&logo=github" alt="GitHub" />
+    </a>
+    <img src="https://img.shields.io/badge/Focus-AI%20Agent%20%7C%20LLM%20%7C%20RAG-0284c7?style=flat-square" alt="Focus" />
+    <!-- OSS_BADGE:START --><img src="https://img.shields.io/badge/OSS%20PRs-57%20Merged%20%C2%B7%20781k%2B%E2%98%85-0ea5e9?style=flat-square&logo=github" alt="OSS PRs" /><!-- OSS_BADGE:END -->
+    <img src="https://img.shields.io/badge/Location-Shanghai-4f46e5?style=flat-square" alt="Location" />
+    <img src="https://komarev.com/ghpvc/?username=Frank-zhu2000&label=Views&color=0284c7&style=flat-square" alt="Profile Views" />
   </p>
 </div>
 
 ---
 
-### 👨‍💻 关于我 / About Me
+### 👨‍💻 关于我 · About Me
 
-- 🔭 **专注领域**：AI 工程师 / 大模型算法工程师，擅长 **AI Agent**、大模型算法与全栈落地。
-- 🌱 **技术探索**：持续深耕 Agent Harness、工具调用与多 Agent 协作，关注 LLM 推理、评测与工程化。
-- 💡 **开源信条**：热衷开源协作，用干净、可复现的代码把 Agent 与大模型能力做成可用产品。
-- 📫 **交流协作**：欢迎就 AI / Agent / Harness / LLM 相关话题交流，也欢迎 Issue 与 PR！
-
----
-
-### 🛠️ 技术栈与工具 / Tech Stack & Tools
-
-<div align="left">
-  <!-- AI / LLM -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/DeepAgents-0A0A0A?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/vLLM-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <!-- Agent / Full Stack -->
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <!-- Infra -->
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</div>
+- 🔭 **专注方向**：AI 工程师 / 大模型算法工程师，深耕 **AI Agent**、**Agent Harness**、**RAG 管线**与全栈工程化落地。
+- 🧠 **技术聚焦**：专注于工具调用（Tool Use / MCP）、上下文与记忆管理、多 Agent 协作编排、混合检索与系统级评测。
+- 🤝 **开源贡献**：持续向主流 AI / Agent 开源项目贡献高质量修复与工程改进，累计贡献 <!-- ABOUT_OSS_STAT:START -->**57 个已合并 PR · 16 个仓库 · 781k+ Stars 生态**<!-- ABOUT_OSS_STAT:END -->。
+- 📫 **交流协作**：欢迎就 Agent 架构、Harness 工程与大模型生产化落地展开交流，也欢迎通过 Issue / PR 联系！
 
 ---
 
-### 📊 GitHub 实时数据 / Activity & Stats
+### 🏆 核心项目 · Featured Projects
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Frank-zhu2000&theme=radical&hide_border=true" width="98%" />
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📘 <a href="https://github.com/Frank-zhu2000/repo-mastery-html">repo-mastery-html</a></h4>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-0ea5e9?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Agent%20Skill-6366f1?style=flat-square" alt="Agent Skill" />
+        <img src="https://img.shields.io/badge/Zero%20Deps-059669?style=flat-square" alt="Zero Deps" />
+      </p>
+      <p>把任意 GitHub 开源仓库一键转化为<strong>「0 基础到精通」离线单文件 HTML 互动学习系统</strong>，让源码拆解即开即学。</p>
+      <ul>
+        <li><strong>三大交互蓝图</strong>：全链路数据流、技术架构边界与业务泳道图联动定位</li>
+        <li><strong>沉浸学习工坊</strong>：痛点类比 + I/O 真实数据契约 + <strong>100% 逐行中文源码精注</strong></li>
+        <li><strong>工程化验收</strong>：单文件零依赖输出 · Headless CDP 零溢出自动校验</li>
+      </ul>
+      <p>
+        <a href="https://frank-zhu2000.github.io/repo-mastery-html/">🌐 <b>在线 Demo (WeKnora)</b></a> ·
+        <a href="https://github.com/Frank-zhu2000/repo-mastery-html">📦 <b>查看仓库</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://github.com/Frank-zhu2000/ragforge">ragforge</a></h4>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/BM25%20%2B%20RRF-0284c7?style=flat-square" alt="BM25 + RRF" />
+        <img src="https://img.shields.io/badge/RAG%20Eval-059669?style=flat-square" alt="RAG Eval" />
+      </p>
+      <p>轻量、高性能且模块化的 Python <strong>RAG 数据管线工具包</strong>，聚焦可复现的语义分块、混合检索与量化评测。</p>
+      <ul>
+        <li><strong>零臃肿核心</strong>：仅依赖 Python 标准库，无重型框架锁定、极速启动</li>
+        <li><strong>上下文感知分块</strong>：支持 Markdown 标题面包屑与代码函数/类边界切分</li>
+        <li><strong>混合检索与评测</strong>：Okapi BM25 + 向量 RRF 融合 · Hit Rate / MRR / NDCG / Faithfulness + CLI</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Frank-zhu2000/ragforge">📦 <b>查看仓库</b></a> ·
+        <a href="https://github.com/Frank-zhu2000/ragforge#readme">📖 <b>文档与架构</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🏆 核心项目 / Featured Repositories
+### 🤝 开源贡献 · Open Source Contributions
 
-| 项目名称 | 说明 | 技术栈 | 仓库链接 |
-| :--- | :--- | :--- | :---: |
-| **⚡ RAGForge / ragforge** | 轻量、模块化的 RAG 数据管线工具包：核心零外部依赖，支持 Markdown/代码语义分块、BM25 + 向量 RRF 混合检索与 RAG 评测（Hit Rate、MRR、NDCG、Faithfulness 等），附带 CLI | <code>Python</code> <code>BM25</code> <code>RRF</code> <code>CLI</code> | [查看项目](https://github.com/Frank-zhu2000/ragforge) |
-
-### 🤝 开源贡献 / Open Source Contributions
+<!-- CONTRIBUTIONS:START -->
+> 共 **57** 个已合并 PR（**32** 条实时同步 + **25** 条历史归档），覆盖 **16** 个开源仓库，上游生态累计 **781k+ Stars** · 每日由 GitHub Actions 自动同步。
 
 | 仓库 | ⭐ Stars | 已合并 PR | 代表 PR |
 | :--- | :---: | :---: | :--- |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 27.6万 | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 4.9万 | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 4.7万 | 2 | [#3199 fix: check token budget before turn-count trim](https://github.com/zhayujie/CowAgent/pull/3199) |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 4.6万 | 1 | [#1449 docs(assurance): correct API key storage claims](https://github.com/alibaba/open-code-review/pull/1449) |
-| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 4.1万 | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
-| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 4.0万 | 7 | [#1651 fix(generation): reject invalid quiz option shapes and constrain values at the source](https://github.com/THU-MAIC/OpenMAIC/pull/1651) |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 3.3万 | 2 | [#3531 docs(ollama): document embedding model config and RAM guidance](https://github.com/Tencent/WeKnora/pull/3531) |
-| [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 2.3万 | 1 | [#7086 fix: MCP node should not mark all params required when schema has no required](https://github.com/1Panel-dev/MaxKB/pull/7086) |
-| [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 0.7万 | 2 | [#632 fix(host-core): detect MSIX Store pwsh app-execution aliases](https://github.com/vastsa/PI-Desktop/pull/632) |
-| [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | 0.5万 | 1 | [#626 docs: fix CONTRIBUTING branch baseline and dogfood setup](https://github.com/Tencent/teamai-cli/pull/626) |
-| [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | 0.5万 | 1 | [#1288 fix(migrations): align MANIFEST timestamp for 0238 with filename](https://github.com/melgarafael/DeskcommCRM/pull/1288) |
-| [spacering-net/codeg](https://github.com/spacering-net/codeg) | 0.4万 | 2 | [#778 fix(acp): update session transcript pointer after /clear](https://github.com/spacering-net/codeg/pull/778) |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 308.2k | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 61.3k | 2 | [#2127 fix(web): keep the composer resources popover inside the viewport](https://github.com/HKUDS/DeepTutor/pull/2127) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 4 | [#1766 fix(action): show warnings in zero-finding PR summaries](https://github.com/alibaba/open-code-review/pull/1766) |
+| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 52.6k | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.2k | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 48.0k | 3 | [#3680 docs: document COW_DATA_DIR and cow-data volume for Docker upgrades](https://github.com/zhayujie/CowAgent/pull/3680) |
+| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 44.1k | 16 | [#2016 fix(export): keep long PPTX formulas on one line](https://github.com/THU-MAIC/OpenMAIC/pull/2016) |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.6k | 1 | [#1812 fix(futu): stop profiles from pinning the HK trade market](https://github.com/HKUDS/Vibe-Trading/pull/1812) |
+| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 3 | [#8514 fix(desktop): bundle visual_compression glyph atlas assets](https://github.com/agentscope-ai/QwenPaw/pull/8514) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 37.9k | 7 | [#4719 fix(chat): keep distinct facts in partial-overlap dedup](https://github.com/Tencent/WeKnora/pull/4719) |
+| [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 23.2k | 1 | [#7086 fix: MCP node should not mark all params required when schema has no required](https://github.com/1Panel-dev/MaxKB/pull/7086) |
+| [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 8.1k | 5 | [#1764 fix(agent-runtime): discover native sessions in configured sessionDir](https://github.com/vastsa/PI-Desktop/pull/1764) |
+| [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | 5.9k | 2 | [#1042 feat: add teamai.yaml language for English agent texts (#1014)](https://github.com/Tencent/teamai-cli/pull/1042) |
+| [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | 5.5k | 2 | [#2781 fix(ia): preço do Gemini 3.6/3.7/3.8 Flash dobra em 2027-01-01 (#2563)](https://github.com/melgarafael/DeskcommCRM/pull/2781) |
+| [spacering-net/codeg](https://github.com/spacering-net/codeg) | 4.6k | 4 | [#945 fix(work-task): fail an empty end_turn that reported an agent error](https://github.com/spacering-net/codeg/pull/945) |
+| [techflag/workdsh](https://github.com/techflag/workdsh) | 341 | 1 | [#68 fix(experts): share one agents home for publish and execution](https://github.com/techflag/workdsh/pull/68) |
 
-> 共 25 个已合并 PR，覆盖 12 个仓库。
+<details>
+<summary>📂 展开查看全部已合并 PR 完整明细（32 条实时记录 + 12 条历史归档代表记录）</summary>
+
+#### 近期实时已合并 PR（32 条）
+
+| 合并日期 | 仓库 | PR |
+| :---: | :--- | :--- |
+| 2026-11-13 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | [#1766 fix(action): show warnings in zero-finding PR summaries](https://github.com/alibaba/open-code-review/pull/1766) |
+| 2026-11-03 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | [#8514 fix(desktop): bundle visual_compression glyph atlas assets](https://github.com/agentscope-ai/QwenPaw/pull/8514) |
+| 2026-11-03 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | [#1837 fix(diff): keep tracked gitignored files in workspace review](https://github.com/alibaba/open-code-review/pull/1837) |
+| 2026-10-31 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | [#2127 fix(web): keep the composer resources popover inside the viewport](https://github.com/HKUDS/DeepTutor/pull/2127) |
+| 2026-10-30 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#2016 fix(export): keep long PPTX formulas on one line](https://github.com/THU-MAIC/OpenMAIC/pull/2016) |
+| 2026-10-28 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | [#8438 fix(mail): do not append domain when account name is already a full address](https://github.com/agentscope-ai/QwenPaw/pull/8438) |
+| 2026-10-28 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | [#2121 fix(web): follow the OS theme by default and add a System option](https://github.com/HKUDS/DeepTutor/pull/2121) |
+| 2026-10-28 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#2061 fix(workbench): delete one character of a partial skill handle](https://github.com/THU-MAIC/OpenMAIC/pull/2061) |
+| 2026-10-28 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#2022 fix(models): resolve Ark Agent Plan model metadata through catalog aliases](https://github.com/THU-MAIC/OpenMAIC/pull/2022) |
+| 2026-10-28 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#2021 fix(narration): keep Greek letters like π as symbols in captions](https://github.com/THU-MAIC/OpenMAIC/pull/2021) |
+| 2026-10-28 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#2018 fix(editor): keep inline formulas when legacy canvas text is edited](https://github.com/THU-MAIC/OpenMAIC/pull/2018) |
+| 2026-10-27 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#2027 fix(agent-runtime): keep the system prompt stable when materials change (AI-assisted)](https://github.com/THU-MAIC/OpenMAIC/pull/2027) |
+| 2026-10-26 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | [#8362 fix(console): scope chat input drafts to the conversation](https://github.com/agentscope-ai/QwenPaw/pull/8362) |
+| 2026-10-26 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | [#4719 fix(chat): keep distinct facts in partial-overlap dedup](https://github.com/Tencent/WeKnora/pull/4719) |
+| 2026-10-26 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#1983 fix(agent): cap parallel generate_tts calls and keep failure reasons](https://github.com/THU-MAIC/OpenMAIC/pull/1983) |
+| 2026-10-23 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | [#4573 fix(docparser): treat anydoc resource limits as permanent parse failures](https://github.com/Tencent/WeKnora/pull/4573) |
+| 2026-10-21 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | [#4561 fix(db): stop logging bound parameters in GORM slow-query logs](https://github.com/Tencent/WeKnora/pull/4561) |
+| 2026-10-20 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | [#1764 fix(agent-runtime): discover native sessions in configured sessionDir](https://github.com/vastsa/PI-Desktop/pull/1764) |
+| 2026-10-19 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#1908 fix(agents): match generated agent voices to catalogue gender (#1084)](https://github.com/THU-MAIC/OpenMAIC/pull/1908) |
+| 2026-10-19 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | [#1739 fix(plugins): allow relative paths inside a drive-root workspace](https://github.com/vastsa/PI-Desktop/pull/1739) |
+| 2026-10-19 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | [#1721 docs(contributing): refresh Project Structure tree (#1441)](https://github.com/alibaba/open-code-review/pull/1721) |
+| 2026-10-18 | [techflag/workdsh](https://github.com/techflag/workdsh) | [#68 fix(experts): share one agents home for publish and execution](https://github.com/techflag/workdsh/pull/68) |
+| 2026-10-17 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | [#4432 fix(agent): share one configurable budget for web_fetch](https://github.com/Tencent/WeKnora/pull/4432) |
+| 2026-10-14 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | [#1893 fix(pi): reject null storeState.scenes members with 400 (#1821)](https://github.com/THU-MAIC/OpenMAIC/pull/1893) |
+| 2026-10-14 | [spacering-net/codeg](https://github.com/spacering-net/codeg) | [#945 fix(work-task): fail an empty end_turn that reported an agent error](https://github.com/spacering-net/codeg/pull/945) |
+| 2026-10-13 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | [#4208 fix(docs): prebundle fastdom when mermaid imports it (#2899)](https://github.com/Tencent/WeKnora/pull/4208) |
+| 2026-10-13 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | [#1812 fix(futu): stop profiles from pinning the HK trade market](https://github.com/HKUDS/Vibe-Trading/pull/1812) |
+| 2026-10-13 | [spacering-net/codeg](https://github.com/spacering-net/codeg) | [#926 fix(acp): stop empty check_user_feedback calls from looping](https://github.com/spacering-net/codeg/pull/926) |
+| 2026-10-12 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | [#3680 docs: document COW_DATA_DIR and cow-data volume for Docker upgrades](https://github.com/zhayujie/CowAgent/pull/3680) |
+| 2026-10-12 | [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | [#2781 fix(ia): preço do Gemini 3.6/3.7/3.8 Flash dobra em 2027-01-01 (#2563)](https://github.com/melgarafael/DeskcommCRM/pull/2781) |
+| 2026-10-12 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | [#1577 fix(asktool): scroll long question prompts inside the card (#1531)](https://github.com/vastsa/PI-Desktop/pull/1577) |
+| 2026-10-12 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | [#1042 feat: add teamai.yaml language for English agent texts (#1014)](https://github.com/Tencent/teamai-cli/pull/1042) |
+
+#### 早期历史归档代表记录（25 PR · 12 仓库）
+
+| 仓库 | ⭐ Stars | 历史合并数 | 代表 PR |
+| :--- | :---: | :---: | :--- |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 308.2k | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 1 | [#1449 docs(assurance): correct API key storage claims](https://github.com/alibaba/open-code-review/pull/1449) |
+| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 52.6k | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.2k | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 48.0k | 2 | [#3199 fix: check token budget before turn-count trim](https://github.com/zhayujie/CowAgent/pull/3199) |
+| [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 44.1k | 7 | [#1651 fix(generation): reject invalid quiz option shapes and constrain values at the source](https://github.com/THU-MAIC/OpenMAIC/pull/1651) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 37.9k | 2 | [#3531 docs(ollama): document embedding model config and RAM guidance](https://github.com/Tencent/WeKnora/pull/3531) |
+| [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 23.2k | 1 | [#7086 fix: MCP node should not mark all params required when schema has no required](https://github.com/1Panel-dev/MaxKB/pull/7086) |
+| [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 8.1k | 2 | [#632 fix(host-core): detect MSIX Store pwsh app-execution aliases](https://github.com/vastsa/PI-Desktop/pull/632) |
+| [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | 5.9k | 1 | [#626 docs: fix CONTRIBUTING branch baseline and dogfood setup](https://github.com/Tencent/teamai-cli/pull/626) |
+| [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | 5.5k | 1 | [#1288 fix(migrations): align MANIFEST timestamp for 0238 with filename](https://github.com/melgarafael/DeskcommCRM/pull/1288) |
+| [spacering-net/codeg](https://github.com/spacering-net/codeg) | 4.6k | 2 | [#778 fix(acp): update session transcript pointer after /clear](https://github.com/spacering-net/codeg/pull/778) |
+
+</details>
+
+<details>
+<summary>🔄 展开查看评审中 Open PR（16 条 · 覆盖 10 个仓库，合入后自动晋升至主表）</summary>
+
+| 仓库 | ⭐ Stars | 提交日期 | PR |
+| :--- | :---: | :---: | :--- |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 265.1k | 2026-10-18 | [#140813 fix(agent): accept reasoning effort max on Muse Spark 1.3](https://github.com/NousResearch/hermes-agent/pull/140813) |
+| [langgenius/dify](https://github.com/langgenius/dify) | 161.6k | 2026-10-28 | [#44927 fix(api): keep saved answer when provider last_used update fails](https://github.com/langgenius/dify/pull/44927) |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 61.8k | 2026-10-17 | [#580 fix(freecad): correct primitive center-of-mass](https://github.com/HKUDS/CLI-Anything/pull/580) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 2026-11-10 | [#1897 fix(scan): keep in-file code_comment line numbers](https://github.com/alibaba/open-code-review/pull/1897) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 2026-10-16 | [#1757 fix(viewer): show a live review as running instead of aborted](https://github.com/alibaba/open-code-review/pull/1757) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.2k | 2026-10-11 | [#6163 fix(channels): deliver provider retry waits through an opt-in hook](https://github.com/HKUDS/nanobot/pull/6163) |
+| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 2026-10-27 | [#8445 fix(mcp): fall back when discover returns HTTP 404 and -32601](https://github.com/agentscope-ai/QwenPaw/pull/8445) |
+| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 2026-10-22 | [#8389 fix(app): read QWENPAW_CORS_ORIGINS at runtime](https://github.com/agentscope-ai/QwenPaw/pull/8389) |
+| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 2026-10-22 | [#8384 fix(hub): reach Docker runtimes when the Hub runs in a container](https://github.com/agentscope-ai/QwenPaw/pull/8384) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 37.9k | 2026-10-12 | [#4183 fix: allow bootstrap admin signup when registration is closed](https://github.com/Tencent/WeKnora/pull/4183) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 36.4k | 2026-10-28 | [#3539 fix(tool): stop reusing deleted task ids](https://github.com/agentscope-ai/agentscope/pull/3539) |
+| [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 31.1k | 2026-10-20 | [#1748 fix(memory-core): restore per-agent agentId in the OpenClaw plugin](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1748) |
+| [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 31.1k | 2026-10-16 | [#1669 fix(deploy): preserve memory-core gateway config across restarts](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1669) |
+| [spacering-net/codeg](https://github.com/spacering-net/codeg) | 4.6k | 2026-10-12 | [#932 fix(delegation): replay the stored task and reopen a custom session with no agent turn](https://github.com/spacering-net/codeg/pull/932) |
+| [spacering-net/codeg](https://github.com/spacering-net/codeg) | 4.6k | 2026-10-11 | [#922 fix(appearance): apply the editor monospace font to conversation code blocks](https://github.com/spacering-net/codeg/pull/922) |
+| [spacering-net/codeg](https://github.com/spacering-net/codeg) | 4.6k | 2026-10-11 | [#920 fix(acp): drop an inherited CODEX_PATH so Codex uses its bundled CLI](https://github.com/spacering-net/codeg/pull/920) |
+
+</details>
+<!-- CONTRIBUTIONS:END -->
+
+---
+
+### 🛠️ 技术栈 · Tech Stack
+
+| 领域 | 核心技术与工具 |
+| :--- | :--- |
+| **AI / LLM & Agent** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" /> <img src="https://img.shields.io/badge/LangGraph-14532D?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" /> <img src="https://img.shields.io/badge/DeepAgents-1E293B?style=flat-square" alt="DeepAgents" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square" alt="OpenAI" /> <img src="https://img.shields.io/badge/vLLM-0F172A?style=flat-square" alt="vLLM" /> <img src="https://img.shields.io/badge/MCP-0EA5E9?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP" /> <img src="https://img.shields.io/badge/Agent%20Skills-6366F1?style=flat-square" alt="Agent Skills" /> |
+| **Full-Stack & Systems** | <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /> |
+| **Infra & Engineering** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /> |
+
+---
+
+### 📊 活跃度与提交热力 · Activity & Stats
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frank-zhu2000/Frank-zhu2000/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frank-zhu2000/Frank-zhu2000/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Frank-zhu2000/Frank-zhu2000/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+  </picture>
+
+  <br />
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Frank-zhu2000&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=CBD5E1&currStreakNum=F1F5F9&sideNums=E2E8F0&dates=94A3B8&stroke=1E3154" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Frank-zhu2000&hide_border=true&background=FFFFFF&ring=0284C7&fire=0284C7&currStreakLabel=0284C7&sideLabels=334155&currStreakNum=0F172A&sideNums=1E293B&dates=64748B&stroke=DCE4F0" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Frank-zhu2000&hide_border=true&background=FFFFFF&ring=0284C7&fire=0284C7&currStreakLabel=0284C7&sideLabels=334155&currStreakNum=0F172A&sideNums=1E293B&dates=64748B&stroke=DCE4F0" alt="GitHub Streak Stats" width="72%" />
+  </picture>
+</div>
 
 ---
 
 <p align="center">
-  <i>⭐️ 感谢你的访问！如果你觉得我的开源项目对你有帮助，欢迎点个 Star 支持一下！</i>
+  <sub>Build clean, reproducible AI systems · <a href="https://github.com/Frank-zhu2000">github.com/Frank-zhu2000</a></sub>
 </p>

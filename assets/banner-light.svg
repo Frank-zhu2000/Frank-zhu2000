@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" width="1200" height="310" role="img" aria-label="Frank Zhu GitHub profile banner light">
+  <defs>
+    <linearGradient id="bg-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="55%" stop-color="#f0f6ff"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <radialGradient id="glow-cyan-l" cx="0.16" cy="0.2" r="0.52">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-indigo-l" cx="0.86" cy="0.72" r="0.52">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent-grad-l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="55%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="logo-grad-l" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <pattern id="dot-grid-light" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0f172a" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="310" rx="18" fill="url(#bg-light)"/>
+  <rect width="1200" height="310" rx="18" fill="url(#dot-grid-light)"/>
+  <rect width="1200" height="310" rx="18" fill="url(#glow-cyan-l)"/>
+  <rect width="1200" height="310" rx="18" fill="url(#glow-indigo-l)"/>
+  <rect x="1" y="1" width="1198" height="308" rx="17" fill="none" stroke="#cbd8ec" stroke-width="1.5"/>
+
+  <!-- Left Identity Block -->
+  <g transform="translate(56, 46)">
+    <!-- Monogram Badge -->
+    <rect x="0" y="0" width="52" height="52" rx="14" fill="url(#logo-grad-l)"/>
+    <text x="26" y="34" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="800" letter-spacing="0.5">FZ</text>
+
+    <!-- Kicker Pill -->
+    <rect x="68" y="11" width="296" height="30" rx="15" fill="#0284c7" fill-opacity="0.10" stroke="#0284c7" stroke-opacity="0.38" stroke-width="1"/>
+    <text x="216" y="30.5" text-anchor="middle" fill="#0369a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">AI / LLM · AGENT HARNESS ENGINEER</text>
+
+    <!-- Main Title -->
+    <text x="0" y="108" fill="#0f172a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-0.8">Frank Zhu <tspan fill="#64748b" font-size="22" font-weight="600" letter-spacing="0">@Frank-zhu2000</tspan></text>
+    <rect x="0" y="122" width="196" height="4" rx="2" fill="url(#accent-grad-l)"/>
+
+    <!-- Subtitles -->
+    <text x="0" y="156" fill="#1e293b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16.5" font-weight="600">大模型算法与 AI Agent 全栈工程化 · 用干净可复现的代码交付可用系统</text>
+    <text x="0" y="182" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5">Building Agent Harness, RAG Pipelines &amp; Production LLM Systems · Shanghai</text>
+
+    <!-- 4 Evergreen Focus Pills -->
+    <g transform="translate(0, 202)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700">
+      <rect x="0" y="0" width="156" height="28" rx="14" fill="#e0f2fe" stroke="#0284c7" stroke-opacity="0.45"/>
+      <text x="78" y="18.5" text-anchor="middle" fill="#075985">AI Agent &amp; Harness</text>
+
+      <rect x="168" y="0" width="152" height="28" rx="14" fill="#ecfdf5" stroke="#059669" stroke-opacity="0.45"/>
+      <text x="244" y="18.5" text-anchor="middle" fill="#065f46">LLM &amp; RAG Systems</text>
+
+      <rect x="332" y="0" width="154" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-opacity="0.45"/>
+      <text x="409" y="18.5" text-anchor="middle" fill="#5b21b6">Full-Stack Systems</text>
+
+      <rect x="498" y="0" width="160" height="28" rx="14" fill="#fffbeb" stroke="#d97706" stroke-opacity="0.45"/>
+      <text x="578" y="18.5" text-anchor="middle" fill="#92400e">Open Source Builder</text>
+    </g>
+  </g>
+
+  <!-- Right Stylized Architecture / Profile Terminal Card -->
+  <g transform="translate(744, 34)">
+    <!-- Window Frame -->
+    <rect x="0" y="0" width="404" height="242" rx="14" fill="#ffffff" stroke="#cbd8ec" stroke-width="1.4"/>
+    <!-- Window Header -->
+    <rect x="0" y="0" width="404" height="32" rx="14" fill="#f1f5f9"/>
+    <rect x="0" y="18" width="404" height="14" fill="#f1f5f9"/>
+    <line x1="0" y1="32" x2="404" y2="32" stroke="#dce4f0" stroke-width="1"/>
+    <circle cx="18" cy="16" r="4.5" fill="#f43f5e" fill-opacity="0.85"/>
+    <circle cx="33" cy="16" r="4.5" fill="#f59e0b" fill-opacity="0.85"/>
+    <circle cx="48" cy="16" r="4.5" fill="#10b981" fill-opacity="0.85"/>
+    <text x="214" y="20" text-anchor="middle" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">frank-zhu2000 — profile.yaml</text>
+
+    <!-- Code Pane -->
+    <rect x="14" y="44" width="376" height="110" rx="8" fill="#f8fafc" stroke="#dce4f0"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">
+      <text x="26" y="66" fill="#0369a1">role:</text>
+      <text x="74" y="66" fill="#0f172a">"AI / LLM Algorithm Engineer"</text>
+      <text x="26" y="88" fill="#0369a1">focus:</text>
+      <text x="74" y="88" fill="#047857">["Agent Harness", "RAG", "Multi-Agent"]</text>
+      <text x="26" y="110" fill="#0369a1">stack:</text>
+      <text x="74" y="110" fill="#4338ca">["Python", "TypeScript", "Go", "PyTorch"]</text>
+      <text x="26" y="132" fill="#0369a1">ethos:</text>
+      <text x="74" y="132" fill="#b45309">"Clean · Reproducible · Production-First"</text>
+    </g>
+
+    <!-- Bottom 3 Horizontal Mini Pillar Cards -->
+    <g transform="translate(14, 166)">
+      <rect x="0" y="0" width="118" height="62" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.4"/>
+      <text x="59" y="25" text-anchor="middle" fill="#075985" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700">Agent Harness</text>
+      <text x="59" y="45" text-anchor="middle" fill="#0369a1" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5">Tools · Memory</text>
+
+      <rect x="129" y="0" width="118" height="62" rx="8" fill="#eff6ff" stroke="#4f46e5" stroke-width="1.4"/>
+      <text x="188" y="25" text-anchor="middle" fill="#1e40af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700">RAG &amp; Eval</text>
+      <text x="188" y="45" text-anchor="middle" fill="#4338ca" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5">RRF · Metrics</text>
+
+      <rect x="258" y="0" width="118" height="62" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+      <text x="317" y="25" text-anchor="middle" fill="#065f46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700">OSS Builder</text>
+      <text x="317" y="45" text-anchor="middle" fill="#047857" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5">WeKnora · QwenPaw</text>
+    </g>
+  </g>
+</svg>

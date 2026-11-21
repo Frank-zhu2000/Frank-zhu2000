@@ -1,0 +1,40 @@
+name: Update Open Source Contributions
+
+on:
+  schedule:
+    # 每天 UTC 00:30 (北京时间 08:30) 自动同步一次
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sync GitHub PR contributions into README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update_contributions.mjs
+
+      - name: Commit and push if README changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README.md"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh open-source contributions"
+          git push
