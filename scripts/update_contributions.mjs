@@ -103,6 +103,37 @@ async function fetchAllExternalPRs() {
   return nodes;
 }
 
+const ORG_CONFIG = {
+  tencent: { key: 'tencent', label: 'Tencent 腾讯', shortTag: '腾讯', color: '0052D9', logo: null },
+  tencentcloud: { key: 'tencent', label: 'Tencent 腾讯', shortTag: '腾讯', color: '0052D9', logo: null },
+  alibaba: { key: 'alibaba', label: 'Alibaba 阿里', shortTag: '阿里', color: 'FF6A00', logo: 'alibabadotcom' },
+  'agentscope-ai': { key: 'alibaba', label: 'Alibaba 阿里', shortTag: '阿里', color: 'FF6A00', logo: 'alibabadotcom' },
+  'thu-maic': { key: 'tsinghua', label: 'Tsinghua 清华', shortTag: '清华', color: '660874', logo: null },
+  hkuds: { key: 'hku', label: 'HKU 港大', shortTag: '港大', color: '006B54', logo: null },
+};
+
+const ORG_DISPLAY_ORDER = [
+  ORG_CONFIG.tencent,
+  ORG_CONFIG.alibaba,
+  ORG_CONFIG['thu-maic'],
+  ORG_CONFIG.hkuds,
+];
+
+function getOrgInfo(repoFullName) {
+  const owner = String(repoFullName || '').split('/')[0].toLowerCase();
+  return ORG_CONFIG[owner] || null;
+}
+
+function renderRepoCell(repoFullName) {
+  const owner = String(repoFullName || '').split('/')[0];
+  const avatar = `<img src="https://github.com/${owner}.png?size=40" width="18" height="18" align="absmiddle" alt="${owner}" />`;
+  const org = getOrgInfo(repoFullName);
+  const tag = org
+    ? ` <img src="https://img.shields.io/badge/${encodeURIComponent(org.shortTag)}-${org.color}?style=flat-square" height="16" align="absmiddle" alt="${org.shortTag}" />`
+    : '';
+  return `${avatar} [${repoFullName}](https://github.com/${repoFullName})${tag}`;
+}
+
 function formatStars(count) {
   if (count >= 1000) {
     return `${(count / 1000).toFixed(1)}k`;
@@ -266,35 +297,51 @@ async function main() {
   const badgeMsg = encodeURIComponent(`${totalMerged} Merged · ${totalStarsLabel}★`);
   const badgeBlock = `<img src="https://img.shields.io/badge/OSS%20PRs-${badgeMsg}-0ea5e9?style=flat-square&logo=github" alt="OSS PRs" />`;
 
-  // Render marker 2: About Me OSS highlight
+  // Render marker 2: About Me OSS highlight & Org Badges
   const aboutStatBlock = `**${totalMerged} 个已合并 PR · ${totalRepos} 个仓库 · ${totalStarsLabel} Stars 生态**`;
+
+  const orgCounts = {};
+  for (const r of mergedRepos) {
+    const org = getOrgInfo(r.repo);
+    if (org) {
+      orgCounts[org.key] = (orgCounts[org.key] || 0) + r.mergedCount;
+    }
+  }
+
+  const orgBadgesBlock = ORG_DISPLAY_ORDER.filter((org) => (orgCounts[org.key] || 0) > 0)
+    .map((org) => {
+      const count = orgCounts[org.key];
+      const logoPart = org.logo ? `&logo=${org.logo}&logoColor=white` : '';
+      return `<img src="https://img.shields.io/badge/${encodeURIComponent(org.label)}-${count}%20PRs-1e293b?style=flat-square&labelColor=${org.color}${logoPart}" alt="${org.label}" />`;
+    })
+    .join(' ');
 
   // Render marker 3: Full Contributions section
   const mainRows = mergedRepos
     .map(
       (r) =>
-        `| [${r.repo}](https://github.com/${r.repo}) | ${formatStars(r.stars)} | ${r.mergedCount} | [#${r.representative.number} ${escapeCell(r.representative.title)}](${r.representative.url}) |`
+        `| ${renderRepoCell(r.repo)} | ${formatStars(r.stars)} | ${r.mergedCount} | [#${r.representative.number} ${escapeCell(r.representative.title)}](${r.representative.url}) |`
     )
     .join('\n');
 
   const liveDetailRows = allLiveMergedFlat
     .map(
       (pr) =>
-        `| ${pr.mergedAt} | [${pr.repo}](https://github.com/${pr.repo}) | [#${pr.number} ${escapeCell(pr.title)}](${pr.url}) |`
+        `| ${pr.mergedAt} | ${renderRepoCell(pr.repo)} | [#${pr.number} ${escapeCell(pr.title)}](${pr.url}) |`
     )
     .join('\n');
 
   const histDetailRows = historicalRows
     .map(
       (h) =>
-        `| [${h.repo}](https://github.com/${h.repo}) | ${formatStars(h.stars)} | ${h.count} | [#${h.rep.number} ${escapeCell(h.rep.title)}](${h.rep.url}) |`
+        `| ${renderRepoCell(h.repo)} | ${formatStars(h.stars)} | ${h.count} | [#${h.rep.number} ${escapeCell(h.rep.title)}](${h.rep.url}) |`
     )
     .join('\n');
 
   const openDetailRows = openPRsSorted
     .map(
       (pr) =>
-        `| [${pr.repo}](https://github.com/${pr.repo}) | ${formatStars(pr.stars)} | ${pr.createdAt} | [#${pr.number} ${escapeCell(pr.title)}](${pr.url}) |`
+        `| ${renderRepoCell(pr.repo)} | ${formatStars(pr.stars)} | ${pr.createdAt} | [#${pr.number} ${escapeCell(pr.title)}](${pr.url}) |`
     )
     .join('\n');
 
@@ -330,6 +377,7 @@ ${histDetailRows}
   let next = readmeRaw;
   next = replaceMarkerBlock(next, 'OSS_BADGE', badgeBlock);
   next = replaceMarkerBlock(next, 'ABOUT_OSS_STAT', aboutStatBlock);
+  next = replaceMarkerBlock(next, 'ORG_BADGES', orgBadgesBlock);
   next = replaceMarkerBlock(next, 'CONTRIBUTIONS', contributionsBlock);
 
   if (lineEnding === '\r\n') {
@@ -347,6 +395,7 @@ ${histDetailRows}
         historicalTotal,
         openCount: openPRsSorted.length,
         openReposCount,
+        orgCounts,
       },
       null,
       2
