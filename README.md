@@ -23,6 +23,7 @@
 ### 👨‍💻 关于我 · About Me
 
 - 🔭 **专注方向**：AI 工程师 / 大模型算法工程师，深耕 **AI Agent**、**Agent Harness**、**RAG 管线**与全栈工程化落地。
+- 🎓 **学术背景**：电子工程（EE）专业**硕士研究生**，研究方向涵盖 **人工智能、CV、NLP 与多模态（Multimodal）**，具备多项算法项目实战、算法竞赛与学术论文研究经历。
 - 🧠 **技术聚焦**：专注于工具调用（Tool Use / MCP）、上下文与记忆管理、多 Agent 协作编排、混合检索与系统级评测。
 - 🤝 **开源贡献**：持续向 **腾讯、阿里、清华、港大** 等头部企业与高校实验室开源项目贡献核心修复与工程改进，累计 <!-- ABOUT_OSS_STAT:START -->**57 个已合并 PR · 16 个仓库 · 782k+ Stars 生态**<!-- ABOUT_OSS_STAT:END -->。<br /><!-- ORG_BADGES:START --><img src="https://img.shields.io/badge/Tencent%20%E8%85%BE%E8%AE%AF-9%20PRs-1e293b?style=flat-square&labelColor=0052D9" alt="Tencent 腾讯" /> <img src="https://img.shields.io/badge/Alibaba%20%E9%98%BF%E9%87%8C-7%20PRs-1e293b?style=flat-square&labelColor=FF6A00&logo=alibabadotcom&logoColor=white" alt="Alibaba 阿里" /> <img src="https://img.shields.io/badge/Tsinghua%20%E6%B8%85%E5%8D%8E-16%20PRs-1e293b?style=flat-square&labelColor=660874" alt="Tsinghua 清华" /> <img src="https://img.shields.io/badge/HKU%20%E6%B8%AF%E5%A4%A7-4%20PRs-1e293b?style=flat-square&labelColor=006B54" alt="HKU 港大" /><!-- ORG_BADGES:END -->
 - 📫 **交流协作**：欢迎就 Agent 架构、Harness 工程与大模型生产化落地展开交流，也欢迎通过 Issue / PR 联系！
