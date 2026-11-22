@@ -12,7 +12,7 @@
       <img src="https://img.shields.io/badge/GitHub-Frank--zhu2000-0f172a?style=flat-square&logo=github" alt="GitHub" />
     </a>
     <img src="https://img.shields.io/badge/Focus-AI%20Agent%20%7C%20LLM%20%7C%20RAG-0284c7?style=flat-square" alt="Focus" />
-    <!-- OSS_BADGE:START --><img src="https://img.shields.io/badge/OSS%20PRs-57%20Merged%20%C2%B7%20781k%2B%E2%98%85-0ea5e9?style=flat-square&logo=github" alt="OSS PRs" /><!-- OSS_BADGE:END -->
+    <!-- OSS_BADGE:START --><img src="https://img.shields.io/badge/OSS%20PRs-57%20Merged%20%C2%B7%20782k%2B%E2%98%85-0ea5e9?style=flat-square&logo=github" alt="OSS PRs" /><!-- OSS_BADGE:END -->
     <img src="https://img.shields.io/badge/Location-Shanghai-4f46e5?style=flat-square" alt="Location" />
     <img src="https://komarev.com/ghpvc/?username=Frank-zhu2000&label=Views&color=0284c7&style=flat-square" alt="Profile Views" />
   </p>
@@ -24,7 +24,7 @@
 
 - 🔭 **专注方向**：AI 工程师 / 大模型算法工程师，深耕 **AI Agent**、**Agent Harness**、**RAG 管线**与全栈工程化落地。
 - 🧠 **技术聚焦**：专注于工具调用（Tool Use / MCP）、上下文与记忆管理、多 Agent 协作编排、混合检索与系统级评测。
-- 🤝 **开源贡献**：持续向主流 AI / Agent 开源项目贡献高质量修复与工程改进，累计贡献 <!-- ABOUT_OSS_STAT:START -->**57 个已合并 PR · 16 个仓库 · 781k+ Stars 生态**<!-- ABOUT_OSS_STAT:END -->。
+- 🤝 **开源贡献**：持续向主流 AI / Agent 开源项目贡献高质量修复与工程改进，累计贡献 <!-- ABOUT_OSS_STAT:START -->**57 个已合并 PR · 16 个仓库 · 782k+ Stars 生态**<!-- ABOUT_OSS_STAT:END -->。
 - 📫 **交流协作**：欢迎就 Agent 架构、Harness 工程与大模型生产化落地展开交流，也欢迎通过 Issue / PR 联系！
 
 ---
@@ -77,26 +77,26 @@
 ### 🤝 开源贡献 · Open Source Contributions
 
 <!-- CONTRIBUTIONS:START -->
-> 共 **57** 个已合并 PR（**32** 条实时同步 + **25** 条历史归档），覆盖 **16** 个开源仓库，上游生态累计 **781k+ Stars** · 每日由 GitHub Actions 自动同步。
+> 共 **57** 个已合并 PR（**32** 条实时同步 + **25** 条历史归档），覆盖 **16** 个开源仓库，上游生态累计 **782k+ Stars** · 每日由 GitHub Actions 自动同步。
 
 | 仓库 | ⭐ Stars | 已合并 PR | 代表 PR |
 | :--- | :---: | :---: | :--- |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 308.2k | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
-| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 61.3k | 2 | [#2127 fix(web): keep the composer resources popover inside the viewport](https://github.com/HKUDS/DeepTutor/pull/2127) |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 4 | [#1766 fix(action): show warnings in zero-finding PR summaries](https://github.com/alibaba/open-code-review/pull/1766) |
-| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 52.6k | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.2k | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 308.5k | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 61.4k | 2 | [#2127 fix(web): keep the composer resources popover inside the viewport](https://github.com/HKUDS/DeepTutor/pull/2127) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.2k | 4 | [#1766 fix(action): show warnings in zero-finding PR summaries](https://github.com/alibaba/open-code-review/pull/1766) |
+| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 52.8k | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.3k | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 48.0k | 3 | [#3680 docs: document COW_DATA_DIR and cow-data volume for Docker upgrades](https://github.com/zhayujie/CowAgent/pull/3680) |
 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 44.1k | 16 | [#2016 fix(export): keep long PPTX formulas on one line](https://github.com/THU-MAIC/OpenMAIC/pull/2016) |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.6k | 1 | [#1812 fix(futu): stop profiles from pinning the HK trade market](https://github.com/HKUDS/Vibe-Trading/pull/1812) |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.7k | 1 | [#1812 fix(futu): stop profiles from pinning the HK trade market](https://github.com/HKUDS/Vibe-Trading/pull/1812) |
 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 3 | [#8514 fix(desktop): bundle visual_compression glyph atlas assets](https://github.com/agentscope-ai/QwenPaw/pull/8514) |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 37.9k | 7 | [#4719 fix(chat): keep distinct facts in partial-overlap dedup](https://github.com/Tencent/WeKnora/pull/4719) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 38.0k | 7 | [#4719 fix(chat): keep distinct facts in partial-overlap dedup](https://github.com/Tencent/WeKnora/pull/4719) |
 | [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 23.2k | 1 | [#7086 fix: MCP node should not mark all params required when schema has no required](https://github.com/1Panel-dev/MaxKB/pull/7086) |
 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 8.1k | 5 | [#1764 fix(agent-runtime): discover native sessions in configured sessionDir](https://github.com/vastsa/PI-Desktop/pull/1764) |
 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | 5.9k | 2 | [#1042 feat: add teamai.yaml language for English agent texts (#1014)](https://github.com/Tencent/teamai-cli/pull/1042) |
 | [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | 5.5k | 2 | [#2781 fix(ia): preço do Gemini 3.6/3.7/3.8 Flash dobra em 2027-01-01 (#2563)](https://github.com/melgarafael/DeskcommCRM/pull/2781) |
 | [spacering-net/codeg](https://github.com/spacering-net/codeg) | 4.6k | 4 | [#945 fix(work-task): fail an empty end_turn that reported an agent error](https://github.com/spacering-net/codeg/pull/945) |
-| [techflag/workdsh](https://github.com/techflag/workdsh) | 341 | 1 | [#68 fix(experts): share one agents home for publish and execution](https://github.com/techflag/workdsh/pull/68) |
+| [techflag/workdsh](https://github.com/techflag/workdsh) | 342 | 1 | [#68 fix(experts): share one agents home for publish and execution](https://github.com/techflag/workdsh/pull/68) |
 
 <details>
 <summary>📂 展开查看全部已合并 PR 完整明细（32 条实时记录 + 12 条历史归档代表记录）</summary>
@@ -142,13 +142,13 @@
 
 | 仓库 | ⭐ Stars | 历史合并数 | 代表 PR |
 | :--- | :---: | :---: | :--- |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 308.2k | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 1 | [#1449 docs(assurance): correct API key storage claims](https://github.com/alibaba/open-code-review/pull/1449) |
-| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 52.6k | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.2k | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 308.5k | 2 | [#3157 fix(gateguard): ignore heredoc prose for tee and path-qualified sinks](https://github.com/affaan-m/ECC/pull/3157) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.2k | 1 | [#1449 docs(assurance): correct API key storage claims](https://github.com/alibaba/open-code-review/pull/1449) |
+| [JustVugg/colibri](https://github.com/JustVugg/colibri) | 52.8k | 3 | [#1622 fix(v4): use direct reads for per_matrix REAP expert records](https://github.com/JustVugg/colibri/pull/1622) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.3k | 1 | [#5873 refactor(utils): dedupe atomic JSONL write helper](https://github.com/HKUDS/nanobot/pull/5873) |
 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 48.0k | 2 | [#3199 fix: check token budget before turn-count trim](https://github.com/zhayujie/CowAgent/pull/3199) |
 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 44.1k | 7 | [#1651 fix(generation): reject invalid quiz option shapes and constrain values at the source](https://github.com/THU-MAIC/OpenMAIC/pull/1651) |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 37.9k | 2 | [#3531 docs(ollama): document embedding model config and RAM guidance](https://github.com/Tencent/WeKnora/pull/3531) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 38.0k | 2 | [#3531 docs(ollama): document embedding model config and RAM guidance](https://github.com/Tencent/WeKnora/pull/3531) |
 | [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 23.2k | 1 | [#7086 fix: MCP node should not mark all params required when schema has no required](https://github.com/1Panel-dev/MaxKB/pull/7086) |
 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 8.1k | 2 | [#632 fix(host-core): detect MSIX Store pwsh app-execution aliases](https://github.com/vastsa/PI-Desktop/pull/632) |
 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | 5.9k | 1 | [#626 docs: fix CONTRIBUTING branch baseline and dogfood setup](https://github.com/Tencent/teamai-cli/pull/626) |
@@ -162,17 +162,17 @@
 
 | 仓库 | ⭐ Stars | 提交日期 | PR |
 | :--- | :---: | :---: | :--- |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 265.1k | 2026-10-18 | [#140813 fix(agent): accept reasoning effort max on Muse Spark 1.3](https://github.com/NousResearch/hermes-agent/pull/140813) |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 265.3k | 2026-10-18 | [#140813 fix(agent): accept reasoning effort max on Muse Spark 1.3](https://github.com/NousResearch/hermes-agent/pull/140813) |
 | [langgenius/dify](https://github.com/langgenius/dify) | 161.6k | 2026-10-28 | [#44927 fix(api): keep saved answer when provider last_used update fails](https://github.com/langgenius/dify/pull/44927) |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 61.8k | 2026-10-17 | [#580 fix(freecad): correct primitive center-of-mass](https://github.com/HKUDS/CLI-Anything/pull/580) |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 2026-11-10 | [#1897 fix(scan): keep in-file code_comment line numbers](https://github.com/alibaba/open-code-review/pull/1897) |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.0k | 2026-10-16 | [#1757 fix(viewer): show a live review as running instead of aborted](https://github.com/alibaba/open-code-review/pull/1757) |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.2k | 2026-10-11 | [#6163 fix(channels): deliver provider retry waits through an opt-in hook](https://github.com/HKUDS/nanobot/pull/6163) |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 62.3k | 2026-10-17 | [#580 fix(freecad): correct primitive center-of-mass](https://github.com/HKUDS/CLI-Anything/pull/580) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.2k | 2026-11-10 | [#1897 fix(scan): keep in-file code_comment line numbers](https://github.com/alibaba/open-code-review/pull/1897) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.2k | 2026-10-16 | [#1757 fix(viewer): show a live review as running instead of aborted](https://github.com/alibaba/open-code-review/pull/1757) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 50.3k | 2026-10-11 | [#6163 fix(channels): deliver provider retry waits through an opt-in hook](https://github.com/HKUDS/nanobot/pull/6163) |
 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 2026-10-27 | [#8445 fix(mcp): fall back when discover returns HTTP 404 and -32601](https://github.com/agentscope-ai/QwenPaw/pull/8445) |
 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 2026-10-22 | [#8389 fix(app): read QWENPAW_CORS_ORIGINS at runtime](https://github.com/agentscope-ai/QwenPaw/pull/8389) |
 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 38.1k | 2026-10-22 | [#8384 fix(hub): reach Docker runtimes when the Hub runs in a container](https://github.com/agentscope-ai/QwenPaw/pull/8384) |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 37.9k | 2026-10-12 | [#4183 fix: allow bootstrap admin signup when registration is closed](https://github.com/Tencent/WeKnora/pull/4183) |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 36.4k | 2026-10-28 | [#3539 fix(tool): stop reusing deleted task ids](https://github.com/agentscope-ai/agentscope/pull/3539) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 38.0k | 2026-10-12 | [#4183 fix: allow bootstrap admin signup when registration is closed](https://github.com/Tencent/WeKnora/pull/4183) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 36.5k | 2026-10-28 | [#3539 fix(tool): stop reusing deleted task ids](https://github.com/agentscope-ai/agentscope/pull/3539) |
 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 31.1k | 2026-10-20 | [#1748 fix(memory-core): restore per-agent agentId in the OpenClaw plugin](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1748) |
 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 31.1k | 2026-10-16 | [#1669 fix(deploy): preserve memory-core gateway config across restarts](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1669) |
 | [spacering-net/codeg](https://github.com/spacering-net/codeg) | 4.6k | 2026-10-12 | [#932 fix(delegation): replay the stored task and reopen a custom session with no agent turn](https://github.com/spacering-net/codeg/pull/932) |
