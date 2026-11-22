@@ -303,7 +303,7 @@ async function main() {
     : '';
 
   const contributionsBlock = `
-> 共 **${totalMerged}** 个已合并 PR（**${allLiveMergedFlat.length}** 条实时同步 + **${historicalTotal}** 条历史归档），覆盖 **${totalRepos}** 个开源仓库，上游生态累计 **${totalStarsLabel} Stars** · 每日由 GitHub Actions 自动同步。
+> 累计向 **腾讯（Tencent）**、**阿里（Alibaba / AgentScope）**、**清华大学（THU-MAIC）**、**香港大学（HKUDS）** 等知名企业、高校实验室与高星开源社区贡献 **${totalMerged}** 个已合并 PR，覆盖 **${totalRepos}** 个开源项目，上游生态累计 **${totalStarsLabel} Stars** · 每日由 GitHub Actions 自动同步。
 
 | 仓库 | ⭐ Stars | 已合并 PR | 代表 PR |
 | :--- | :---: | :---: | :--- |

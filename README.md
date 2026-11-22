@@ -24,7 +24,7 @@
 
 - 🔭 **专注方向**：AI 工程师 / 大模型算法工程师，深耕 **AI Agent**、**Agent Harness**、**RAG 管线**与全栈工程化落地。
 - 🧠 **技术聚焦**：专注于工具调用（Tool Use / MCP）、上下文与记忆管理、多 Agent 协作编排、混合检索与系统级评测。
-- 🤝 **开源贡献**：持续向主流 AI / Agent 开源项目贡献高质量修复与工程改进，累计贡献 <!-- ABOUT_OSS_STAT:START -->**57 个已合并 PR · 16 个仓库 · 782k+ Stars 生态**<!-- ABOUT_OSS_STAT:END -->。
+- 🤝 **开源贡献**：持续向 **腾讯、阿里、清华、港大** 等头部企业与高校实验室开源项目贡献核心修复与工程改进，累计 <!-- ABOUT_OSS_STAT:START -->**57 个已合并 PR · 16 个仓库 · 782k+ Stars 生态**<!-- ABOUT_OSS_STAT:END -->。
 - 📫 **交流协作**：欢迎就 Agent 架构、Harness 工程与大模型生产化落地展开交流，也欢迎通过 Issue / PR 联系！
 
 ---
@@ -77,7 +77,7 @@
 ### 🤝 开源贡献 · Open Source Contributions
 
 <!-- CONTRIBUTIONS:START -->
-> 共 **57** 个已合并 PR（**32** 条实时同步 + **25** 条历史归档），覆盖 **16** 个开源仓库，上游生态累计 **782k+ Stars** · 每日由 GitHub Actions 自动同步。
+> 累计向 **腾讯（Tencent）**、**阿里（Alibaba / AgentScope）**、**清华大学（THU-MAIC）**、**香港大学（HKUDS）** 等知名企业、高校实验室与高星开源社区贡献 **57** 个已合并 PR，覆盖 **16** 个开源项目，上游生态累计 **782k+ Stars** · 每日由 GitHub Actions 自动同步。
 
 | 仓库 | ⭐ Stars | 已合并 PR | 代表 PR |
 | :--- | :---: | :---: | :--- |
